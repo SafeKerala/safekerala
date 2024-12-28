@@ -6,12 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>View Work Requests</title>
+    <title>send request status</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>View Work Requests</h1>
+        <h1>send Request status</h1>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -22,16 +22,16 @@
     </header>
 
     <main>
-        <section class="work-request-table">
-            <h2>Pending Work Requests</h2>
+       
             <table>
                 <thead>
                     <tr>
-                        <th>user ID</th>
+                        <th>labour ID</th>
+                        <th>Name</th>
                         <th>phone no</th>
-                        <th>Description</th>
                         <th>Priority</th>
-                        <th>Status</th>
+                        <th>skill</th>
+                        <th>status</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,8 +42,8 @@
                         <td></td>
                         <td></td>
                         <td>
-                            <button class="edit-btn" onclick="editLabour(1)">Accept</button>
-                            <button class="delete-btn" onclick="deleteLabour(1)">Delete</button>
+                            <button class="edit-btn" onclick="editLabour(1)">send request</button>
+                            <button class="delete-btn" onclick="deleteLabour(1)">cancel</button>
                         </td>
                     </tr>
                     <tr>
